@@ -1,3 +1,5 @@
 import LLMRequest
+import mockedRequest
+import utils
 
-print(LLMRequest.getChapters("Como transforma qualquer planta em bonsai"))
+utils.save_to_txt(mockedRequest.getBookContent("Como transforma qualquer planta em bonsai"))
